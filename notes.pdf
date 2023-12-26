@@ -1,0 +1,30 @@
+Default export method:
+    
+    // In the components/Search.js file
+    const search = () => {
+        // Component code
+    };
+
+    export default search;
+    ________________________________________________________________________________
+    import MySearchComponent from './components/Search';
+
+
+Named export method:
+    // In the components/Search.js file
+    export const search = () => {
+        // Component code
+    };
+    ________________________________________________________________________________
+    import { search } from './components/Search';
+
+
+react-select-async-paginate:
+Async Data Loading: It allows you to load data asynchronously from a remote server or API as options for a react-select input. 
+This is useful when you have a large dataset that you don't want to load all at once.
+
+Pagination: It supports paginating the loaded data. Instead of loading all options at once, you can load them in smaller batches or pages. 
+When the user scrolls or navigates through the dropdown, it fetches and displays additional options dynamically.
+
+Integration with react-select: It seamlessly integrates with the react-select library, which provides a highly customizable and 
+feature-rich select input component.
